@@ -1,0 +1,100 @@
+html, body {
+    font-family: 'Barlow', sans-serif;
+    padding: 0;
+    margin: 0; }
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px; } }
+
+.nav-link {
+    color: #FFFFFF !important;
+    text-align: center;
+    background-color: #ff6c9a;
+    margin: 5px; }
+
+.nav-link:hover {
+    background-color: #FFFFFF;
+    color: #ff77cd !important;
+    transition: .5s; }
+
+.header {
+    padding: 30px 0; }
+
+.nav-item {
+    margin: 5px;
+    flex-shrink: 0; }
+
+.active {
+    background-color: #FFFFFF;
+    color: #ff77cd !important;
+    font-weight: bold; }
+
+footer {
+    background-color: #ff77cd !important;
+    width: 100%;
+    color: #FFFFFF;
+    overflow: auto;
+    padding: 20px 20px; }
+footer p {
+    margin-top: -6px; }
+
+#nav-content {
+    justify-content: center; }
+
+.content {
+    background: url(/static/site/background.png) no-repeat;
+    background-size: cover;
+    background-color: #fbfbfb;
+    height: auto; }
+
+.container .cnr-quote {
+    padding: 50px 10px 50px 10px;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #ffce50;
+    font-weight: 900; }
+
+.container .cnr-content {
+    padding: 40px 65px 100px;
+    background-color: white; }
+@media screen and (min-width: 512px) {
+    .container .cnr-content {
+        margin-top: -90px; } }
+.container .cnr-content h4 {
+    color: #ffce50;
+    font-weight: bold;
+    margin-top: 26px; }
+.container .cnr-content a {
+    color: #ff6c9a; }
+.container .cnr-content .tarieven-prijzen {
+    float: right;
+    margin-right: 30px; }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0; }
+.no-gutters > .col, .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+.hidden {
+    display: none; }
+
+.btn-primary {
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #fc84ff;
+    border-color: #fc84ff; }
+
+.btn-primary:hover {
+    background-color: #fb68ff;
+    border-color: #fb68ff; }
+
+.content-image {
+    background-color: #ffce50;
+    margin-bottom: 60px; }
+.content-image img {
+    margin-left: -100px;
+    margin-top: -60px; }
